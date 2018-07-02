@@ -1,0 +1,28 @@
+#item nav ul li {
+    display: inline;
+    margin-top: 1%;
+    /* background-color: red; */
+    color:white;
+    padding: 5px 20px;
+    
+
+}
+#item {
+    background-color: red;
+    color:white;
+    height: 7px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ul li a:link, ul li a:visited{
+    color: white;
+    display: inline-block;
+    margin-top: 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+
+}

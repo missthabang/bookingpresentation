@@ -1,0 +1,51 @@
+<div id="head"> 
+
+
+    <div class="tab">
+        <a href="contactus.html"><img src="../../assets/logo.gif" alt="" class="center" width="95" height="90"></a>
+        <p>Login:</p>
+        
+        <input type="text" placeholder="Email..." [(ngModel)] = "email" name="email"><br>
+              
+        <input type = "text" placeholder="Password..." [(ngModel)] = "Password" name="password" >
+        <br>
+        <a href=""> Forgot Password?</a>
+        <br>
+        <a href=""> Register</a>
+        
+    </div>
+  
+    
+    <div class="body">
+        
+      <form>
+
+        
+      <H1><B>BOOK A TEST DRIVE TODAY!</B></H1>
+       
+      <input type= "text" placeholder="Name" [(ngModel)] = "name" name="name"> <br>
+      <input type= "text"  placeholder= "Surname" [(ngModel)] = "surname" name="surname"> <br>
+      <select id="country" placeholder="eg.BMW R8" [(ngModel)] = "car"  name="car">
+        <option value="BMW R8">BMW R8</option>
+        <option value="BMW X5ts">BMW X5ts</option>
+        <option value="BMW 450i">BMW 450i</option>
+        <option value="BMW R8">BMW R8</option>
+        <option value="BMW X5ts">BMW X5ts</option>
+        <option value="BMW 450i">BMW 450i</option>
+        <option value="BMW R8">BMW R8</option>
+        <option value="BMW X5ts">BMW X5ts</option>
+        <option value="BMW 450i">BMW 450i</option>
+      </select> <br>
+      <input type = "date" placeholder="Date"  [(ngModel)] = "date" name="date"> <br>
+      <button (click) = "onbook()">Confirm</button>
+
+      </form>
+ 
+
+    </div>
+   
+
+
+
+<div id="foot" >  <p>Powered by Formula 1</p></div>
+<router-outlet></router-outlet>
